@@ -18,4 +18,3 @@ a ideia é criar o template com um menu lateral, mas sem o menu do APP no topo.
 pelo que pesquisei, o menu do APP é criado com o st.selectbox, e o menu lateral é criado com o streamlit sidebar.
 e que para evitar o menu do APP, basta comentar a linha que cria o menu do APP.
 ainda em 2025/05/11 não consegui fazer isso, mas estou tentando.
-
