@@ -9,6 +9,7 @@
 # pip install streamlit
 # instalar demais dependências, podendo ser instaladas todas de uma vez ou uma a uma:
 # pip install -r requirements.txt
+# ou
 # pip install pandas
 # pip install plotly
 # pip install plotly_geo

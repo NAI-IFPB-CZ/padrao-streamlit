@@ -1,8 +1,13 @@
 # padrao-streamlit
 padrao-streamlit
 
-# esse projeto é um template para criar aplicações web com streamlit
+# Esse projeto é um template para criar aplicações web com streamlit
 O template é baseado no padrão de projeto MVC (Model-View-Controller)
+
+Para usarmos esse projeto, basta clonar o repositório e instalar as dependências com o comando:
+```bash
+pip install -r requirements.txt
+```
 
 #
 ## atualizações desse projeto
