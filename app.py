@@ -4,8 +4,6 @@ from PIL import Image # Biblioteca Pillow para carregar a imagem do ícone
 
 
 
-
-
 # para lembrarem os ícones, usei os emojis
 # icon %F0%9F%93%8C = "📌"
 # icon %F0%9F%93%8A = "📊"
