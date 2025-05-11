@@ -1,0 +1,14 @@
+/* assets/style.css */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+/* Você pode adicionar outros estilos globais aqui,
+   que não dependem do tema claro/escuro */
+body {
+    font-family: 'Arial', sans-serif; /* Exemplo de fonte global */
+}

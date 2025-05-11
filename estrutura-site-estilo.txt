@@ -1,0 +1,12 @@
+meu_app_streamlit/
+├── .streamlit/
+│   └── config.toml
+├── assets/
+│   ├── favicon.png        <-- SEU ÍCONE AQUI
+│   ├── style.css          # Para estilos globais (esconder menu, etc.)
+│   ├── light_theme.css    # Estilos específicos do tema claro
+│   └── dark_theme.css     # Estilos específicos do tema escuro
+├── app.py
+└── requirements.txt
+
+

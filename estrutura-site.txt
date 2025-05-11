@@ -1,0 +1,39 @@
+meu_app_streamlit/
+├── app.py                 # Script principal (pode ser a página inicial ou um dispatcher)
+│
+│
+│
+┌──────────────────────────────┐ # para evitar os links diretos para as páginas, recomendo não usar pages e sim paginas
+│
+├── pages/                   # ESSENCIAL para apps multi-página
+│   ├── 1_📊_Dashboard.py
+│   ├── 2_⚙️_Configuracoes.py
+│   ├── pagina_1.py
+│   ├── outra_pagina.py
+│   └── ...
+│
+├── assets/                # (ou static/) Para arquivos estáticos como imagens, CSS customizado
+│   ├── logo.png
+│   └── style.css
+│
+├── data/                  # Para arquivos de dados (CSVs, JSONs, etc.)
+│   ├── raw/               # Dados brutos
+│   └── processed/         # Dados processados
+│
+├── utils/                 # (ou helpers/, modules/, src/) Funções utilitárias, lógica de negócio
+│   ├── __init__.py
+│   ├── data_processing.py
+│   ├── plotting.py
+│   └── api_calls.py
+│
+├── .streamlit/            # Configurações específicas do Streamlit
+│   ├── config.toml        # Configurações gerais do app (tema, etc.)
+│   └── secrets.toml       # Para guardar chaves de API e outras informações sensíveis
+│
+├── tests/                 # (Opcional, mas recomendado) Testes para suas funções
+│   ├── __init__.py
+│   └── test_data_processing.py
+│
+├── requirements.txt       # Dependências Python do projeto
+├── README.md              # Documentação sobre o projeto
+└── .gitignore             # Arquivos e pastas a serem ignorados pelo Git

@@ -1,0 +1,25 @@
+/* assets/light_theme.css */
+html, body, [class*="st-"], .main, .stApp {
+    background-color: #FFFFFF !important; /* Fundo branco */
+    color: #262730 !important;           /* Texto escuro */
+}
+
+.stButton>button {
+    border: 1px solid #FF4B4B !important; /* Cor primária do config.toml */
+    color: #FF4B4B !important;
+    background-color: white !important;
+}
+.stButton>button:hover {
+    border: 1px solid #E03A3A !important;
+    color: #E03A3A !important;
+    background-color: #f0f0f0 !important;
+}
+
+.stTextInput>div>div>input,
+.stTextArea>div>div>textarea,
+.stSelectbox>div>div>div {
+    background-color: #FFFFFF !important;
+    color: #262730 !important;
+    border: 1px solid #D1D1D1 !important;
+}
+/* Adicione mais estilos para outros componentes no tema claro */

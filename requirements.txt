@@ -1,0 +1,10 @@
+# antes de clonar o repositório:
+# pthhon -m venv .venv
+# source .venv/bin/activate (Linux)
+# .venv\Scripts\activate (Windows)
+# pip install streamlit
+# instalar demais dependências, podendo ser instaladas todas de uma vez ou uma a uma:
+# pip install -r requirements.txt
+# pip install pandas
+# pip install plotly
+# python -m pip install multipage_streamlit

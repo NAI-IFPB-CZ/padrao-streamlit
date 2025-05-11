@@ -1,0 +1,25 @@
+/* assets/dark_theme.css */
+html, body, [class*="st-"], .main, .stApp {
+    background-color: #0E1117 !important; /* Fundo escuro */
+    color: #FAFAFA !important;           /* Texto claro */
+}
+
+.stButton>button {
+    border: 1px solid #FF4B4B !important; /* Cor primária do config.toml */
+    color: #FF4B4B !important;
+    background-color: #0E1117 !important;
+}
+.stButton>button:hover {
+    border: 1px solid #FF6A6A !important;
+    color: #FF6A6A !important;
+    background-color: #262730 !important;
+}
+
+.stTextInput>div>div>input,
+.stTextArea>div>div>textarea,
+.stSelectbox>div>div>div {
+    background-color: #262730 !important;
+    color: #FAFAFA !important;
+    border: 1px solid #4A4A4A !important;
+}
+/* Adicione mais estilos para outros componentes no tema escuro */
