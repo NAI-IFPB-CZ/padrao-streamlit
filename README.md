@@ -15,7 +15,7 @@ pip install -r requirements.txt
 foi criado para facilitar o desenvolvimento de aplicações web com streamlit,
 fiz testes, porem ele fica com aquele menu do APP no topo, e não consegui tirar.
 a ideia é criar o template com um menu lateral, mas sem o menu do APP no topo.
-pelo que questionei, o menu do APP é criado com o st.selectbox, e o menu lateral é criado com o streamlit sidebar.
+pelo que pesquisei, o menu do APP é criado com o st.selectbox, e o menu lateral é criado com o streamlit sidebar.
 e que para evitar o menu do APP, basta comentar a linha que cria o menu do APP.
 não achei o st.selectbox.
 
