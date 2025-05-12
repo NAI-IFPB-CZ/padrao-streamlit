@@ -29,7 +29,7 @@ def load_css_file(css_file_path):
 # Definindo o diretório de ativos (assets)
 ASSETS_DIR = os.path.join(os.path.dirname(__file__), "assets")
 # Definindo o caminho para o ícone do aplicativo
-ICON_PATH = os.path.join(ASSETS_DIR, "favicon.png")
+ICON_PATH = os.path.join(ASSETS_DIR, "icon_nai_cz.png")
 
 
 # Tenta carregar o ícone. Se não encontrar, usa um emoji como fallback.
