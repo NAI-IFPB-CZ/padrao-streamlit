@@ -9,8 +9,13 @@ primaryColor = "#FF4B4B" # Seus estilos CSS podem referenciar ou complementar es
 font = "sans serif"
 
 [client]
-showFooter = false
-toolbarMode = "minimal" # Esconde "Deploy app", etc.
+caching = true # Habilita o cache do Streamlit
+displayEnabled = true # Habilita o modo de exibição
+showSidebar = true # Exibe a barra lateral
+showBanner = false # Exibe o banner do Streamlit
+showHeader = false # Exibe o cabeçalho do Streamlit
+showFooter = false # Exibe o rodapé do Streamlit
+toolbarMode = "minimal" # Esconde "Deploy app", etc. na barra lateral
 
 [logger]
 level = "INFO"
