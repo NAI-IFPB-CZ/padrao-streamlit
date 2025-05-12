@@ -184,7 +184,13 @@ st.button("Botão Primário")
 st.text_input("Campo de Texto")
 st.selectbox("Caixa de Seleção", ["Opção 1", "Opção 2"])
 st.slider("Slider", 0, 100, 50)
-st.date_input("Seletor de Data")
+# Adiciona um campo de data, no formato DD/MM/AAAA
+# O campo de data é um widget que permite ao usuário selecionar uma data
+# O formato padrão é YYYY-MM-DD, mas você pode personalizar o formato
+# O formato DD/MM/AAAA é mais comum em alguns países, como o Brasil
+# Para personalizar o formato, você pode usar o parâmetro format
+# O formato deve ser uma string que representa o formato desejado
+st.date_input("Seletor de Data", format="DD/MM/YYYY")
 
 st.write("---")
 st.write("vamos iniciar nessa base...")
