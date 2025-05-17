@@ -1,5 +1,5 @@
 # depois de clonar o repositório:
-# pthhon -m venv .venv
+# python -m venv .venv
 # source .venv/bin/activate (Linux)
 # .venv\Scripts\activate (Windows)
 # depois de ativar o ambiente virtual:
