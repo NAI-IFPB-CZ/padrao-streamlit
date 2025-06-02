@@ -11,7 +11,7 @@ font = "sans serif"
 [client]
 caching = true # Habilita o cache do Streamlit
 displayEnabled = true # Habilita o modo de exibição
-showSidebar = true # Exibe a barra lateral
+showSidebar = false # Exibe a barra lateral
 showBanner = false # Exibe o banner do Streamlit
 showHeader = false # Exibe o cabeçalho do Streamlit
 showFooter = false # Exibe o rodapé do Streamlit
@@ -22,3 +22,8 @@ level = "INFO"
 
 [runner]
 gatherUsageStats = false
+
+
+[UI]
+# Configurações de UI adicionais podem ser adicionadas aqui, se necessário
+showSidebarNavigation = true   # Esconde a navegação da barra lateral
