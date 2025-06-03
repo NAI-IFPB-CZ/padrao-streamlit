@@ -16,6 +16,7 @@ showBanner = false # Exibe o banner do Streamlit
 showHeader = false # Exibe o cabeçalho do Streamlit
 showFooter = false # Exibe o rodapé do Streamlit
 toolbarMode = "minimal" # Esconde "Deploy app", etc. na barra lateral
+showSidebarNavigation = false #Esconde as páginas na sidebar, encontrado na documentação em: https://docs.streamlit.io/develop/api-reference/configuration/config.toml
 
 [logger]
 level = "INFO"
